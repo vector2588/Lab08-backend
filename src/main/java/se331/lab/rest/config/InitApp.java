@@ -5,7 +5,9 @@ import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 import se331.lab.rest.entity.Event;
+import se331.lab.rest.entity.Organizer;
 import se331.lab.rest.repository.EventRepository;
+import se331.lab.rest.repository.OrganizerRepository;
 
 @Component
 public class InitApp implements ApplicationListener<ApplicationReadyEvent> {
